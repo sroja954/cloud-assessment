@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Anime Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #eee;
+    }
+    header {
+      background-color: #1f1f1f;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #ff4081;
+    }
+    header h1 {
+      margin: 0;
+      font-weight: 700;
+      color: #ff4081;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #ff4081;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ff4081;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+    .anime-list {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .anime-card {
+      background-color: #222;
+      border-radius: 10px;
+      width: 250px;
+      overflow: hidden;
+      box-shadow: 0 0 10px #ff4081aa;
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .anime-card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff4081;
+    }
+    .anime-card img {
+      width: 100%;
+      display: block;
+    }
+    .anime-card .info {
+      padding: 15px;
+      text-align: center;
+    }
+    .anime-card .info h3 {
+      margin: 0 0 10px 0;
+      font-size: 1.2rem;
+    }
+    .anime-card .info p {
+      font-size: 0.9rem;
+      color: #bbb;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #1f1f1f;
+      border-top: 3px solid #ff4081;
+      color: #ff4081;
+      font-weight: 600;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Anime Universe</h1>
+  </header>
+  <main>
+    <section>
+      <h2>Featured Anime</h2>
+      <div class="anime-list">
+        <div class="anime-card">GBwgHBgk
+          \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">
+          <div class="info">
+            <h3>Attack on Titan</h3>
+            <p>Action, Drama, Fantasy</p>
+          </div>
+        </div>
+        <div class="anime-card">
+          <img src=https://stock.adobe.com/images/anime-style-illustration-of-a-young-man-blue-sky-background-generative-ai/622221708>  
+          <div class="info">
+            <h3>My Hero Academia</h3>
+            <p>Action, Superhero, School</p>
+          </div>
+        </div>
+        <div class="anime-card">
+          <img src="https://upload.wikimedia.org/wikipedia/en/3/3a/Demon_Slayer_Kimetsu_no_Yaiba_Logo.png" alt="Demon Slayer" />
+          <div class="info">
+            <h3>Demon Slayer</h3>
+            <p>Action, Adventure, Supernatural</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Anime Universe. All rights reserved.
+  </footer>
+</body>
+</html>

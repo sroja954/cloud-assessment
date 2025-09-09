@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music Playlist</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>My Music Playlist</h1>
+        <p>Listen to your favorite songs!</p>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Audio Player Section -->
+        <section id="music-player">
+            <h2>Now Playing</h2>
+            <audio controls id="audio-player">
+                <source src="song1.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <div id="track-info">
+                <p id="track-name">Song 1 - Artist</p>
+                <p>Album: Album Name</p>
+            </div>
+        </section>
+
+        <!-- Playlist Section -->
+        <section id="playlist">
+            <h2>Playlist</h2>
+            <ul>
+                <li><a href="#" onclick="changeTrack('song1.mp3', 'Song 1 - Artist', 'Album Name')">Song 1 - Artist</a></li>
+                <li><a href="#" onclick="changeTrack('song2.mp3', 'Song 2 - Artist', 'Album Name')">Song 2 - Artist</a></li>
+                <li><a href="#" onclick="changeTrack('song3.mp3
